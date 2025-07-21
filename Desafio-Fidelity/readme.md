@@ -39,35 +39,6 @@ Docker e Docker Compose: Ferramentas para contêinerização e orquestração do
 3. Estrutura de Pastas
 A organização do código segue uma abordagem modular e limpa:
 
-.
-├── Desafio-Fidelity
-├── backend/                  
-│   ├── app/                  
-│   │   ├── __init__.py
-│   │   ├── database.py       
-│   │   ├── models.py         
-│   │   ├── routes.py         
-│   │   └── services/         
-│   │   |    └── automacao_servico.py
-|   |   |    └── __init__.py
-│   │   └── utils/
-│   │       └── __init__.py  
-|   |       └── web_scraper.py 
-│   ├── tests/                
-│   │   └── test_routes.py
-|   |   └── __init__.py 
-│   ├── Dockerfile            
-│   ├── requirements.txt      
-│   └── main.py               
-├── frontend/                 
-│   ├── css/                  
-│   ├── js/                   
-│   └── index.html
-├── database_scripts/                 
-│    └── 001_criar_tabelas_iniciais                          
-├── docker-compose.yml        
-└── README.md                 
-
 4. Como Executar o Projeto
 Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
 
