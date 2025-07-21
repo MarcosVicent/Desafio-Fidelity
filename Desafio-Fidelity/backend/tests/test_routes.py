@@ -15,10 +15,8 @@ engine = create_engine(
 )
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# Cria as tabelas do banco de dados de teste
 Base.metadata.create_all(bind=engine)
 
-# Sobrescreve a dependência do banco de dados na aplicação principal
 def override_get_db():
     try:
         db = TestingSessionLocal()
