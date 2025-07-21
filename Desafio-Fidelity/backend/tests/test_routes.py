@@ -7,7 +7,6 @@ from ..app.database import Base, get_db
 from ..app.models import Lote, Pesquisa
 from ..main import app
 
-# Configuração de um banco de dados de teste em memória
 SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL,
