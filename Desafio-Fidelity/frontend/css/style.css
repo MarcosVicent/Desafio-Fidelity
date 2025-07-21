@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.secao-lotes, .secao-status {
+    margin-bottom: 2rem;
+}
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+ul#lista-lotes {
+    list-style-type: none;
+    padding: 0;
+}
+ul#lista-lotes li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

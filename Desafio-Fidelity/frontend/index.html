@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Pesquisas Jurídicas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Pesquisas</h1>
+    </header>
+    <main>
+        <section class="secao-lotes">
+            <h2>Criar Novo Lote</h2>
+            <form id="form-criar-lote">
+                <label for="tipo-lote">Tipo:</label>
+                <input type="text" id="tipo-lote" name="tipo" required>
+                <label for="prioridade-lote">Prioridade:</label>
+                <input type="number" id="prioridade-lote" name="prioridade" required>
+                <button type="submit">Criar Lote</button>
+            </form>
+        </section>
+
+        <section class="secao-status">
+            <h2>Lotes em Andamento</h2>
+            <ul id="lista-lotes">
+                <li>Nenhum lote criado ainda.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
